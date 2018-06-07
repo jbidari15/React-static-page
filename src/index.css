@@ -1,0 +1,297 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.Introduction {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-color: #404040;
+  position: relative;
+}
+.Introduction Img{
+  height:310px;
+}
+.Introduction div>div {
+  margin-bottom: 65px;
+}
+.Introduction > div{
+    margin-top: 30px;
+   
+}
+.Introduction div+div{
+  color:#ACACAC;
+}
+.design{
+  color:white;
+  font-style: italic;
+}
+.Introduction span{
+  color:#787878;
+  font-style: normal;
+}
+.Introduction button{
+  background-color: #5889D0;
+  border:none;
+  height:30px;
+  font-size:10px;
+  padding:0px 50px;
+  color:white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.bubbleDiv{
+  display: flex;
+  justify-content: space-between;
+  height:50px;
+  width:80%;
+  font-size: 15px;
+ align-items: center;
+  position: absolute;
+ margin-top:-50px;
+ left:100px;
+ background-color: #588BD2;
+ 
+}
+.bubbleDiv div{
+  color:#B5E7F9;
+  margin-left:20px;
+}
+.bubbleDiv span{
+  color:white;
+  font-style: italic;
+
+}
+.bubbleDiv button{
+  border:none;
+  height:25px;
+  border-radius: 3px;
+  font-size:10px;
+  padding:0px 20px;
+margin-right: 20px;
+  font-weight: bold;
+}
+.bubbleDiv:after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  border-top: 30px solid #588BD2;
+  border-left: 0px solid transparent;
+  border-right: 30px solid transparent; 
+}
+.secondBigDiv{
+  background-color: #EFEFEF;
+  padding-right:60px;
+  padding-left: 60px;
+}
+.properties{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height:300px;
+ 
+  justify-content: center;
+  padding-top: 50px;
+}
+.singleProperty{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.icon{
+  height:50px;
+  width:50px;
+  background-color: #545253;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+}
+
+.singleProperty span{
+  color:#4D4D4D;
+  font-weight: bold;
+}
+.singleProperty div{
+  color:#979797;
+  margin-bottom: 10px;
+}
+.singleProperty button{
+  background-color: #5889D0;
+  border:none;
+  height:30px;
+  font-size:10px;
+  padding:0px 20px;
+  color:white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.recentWork{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.blog{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  height:500px;
+ 
+}
+.eachBlog{
+  margin-right: 15px;
+  position: relative;
+}
+.forImage> img{
+  height:200px;
+  width:100%;
+  background-color: #FFFFFF;
+ 
+}
+.description{
+  padding-top:10px;
+  height:200px;
+  width:100%;
+ background-color: #FFFFFF;
+  color:#4D4D4D;
+  display:flex;
+  flex-direction: column;
+  position: relative;
+ 
+ 
+ 
+
+ 
+}
+.blogTitle{
+font-weight: bold;
+color:#535353;
+padding-bottom: 5px;
+}
+.description:after{
+  content: "";
+   position: absolute;
+  left:0px;
+  top:100%;
+   border-top: 30px solid #FFFFFF;
+   border-left: 0px solid transparent;
+   border-right: 30px solid transparent; 
+}
+
+.testimonialDiv{
+  text-align: center;
+}
+.testimonials{
+  display:grid;
+  grid-template-columns:3fr 1fr;
+  height:500px;
+  margin-bottom:100px;
+ 
+}
+.testimony{
+  display:grid;
+ grid-template-columns: repeat(2,1fr);
+  grid-gap:20px;
+  position: relative;
+  margin-right: 10px;
+
+}
+.TheDesign{
+  background-color: white;
+  height:470px;
+}
+.designTitle{
+  display:flex;
+  margin-bottom: 10px;
+  
+}
+.designTitle div{
+  margin-right:10px;
+  font-weight: bold;
+
+}
+.designIt{
+  font-weight: bold;
+}
+.designIt+div{
+  margin-bottom: 20px;
+}
+.designIt~div>button{
+  background-color: #5889D0;
+  border:none;
+  height:30px;
+  font-size:10px;
+  padding:0px 20px;
+  color:white;
+  font-weight: bold;
+  border-radius: 3px;
+ 
+  
+}
+.buttonDiv{
+  margin-top:150px;
+  margin-right:10px;
+  text-align: end;
+}
+
+.Details{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:30px;
+  height:400px;
+  background-color: #414141;
+  color:#8B8B8B;
+  padding-left:50px;
+}
+.aboutus:nth-child(1){
+margin-bottom: 20px;
+}
+
+.latestpost :nth-child(2){
+  color:#6486CF;
+}
+.latestpost div{
+  margin-bottom: 10px;
+}
+.shadow{
+  background-color: #2A2A2A;
+  height:50px;
+  width:50px;
+  margin:2px;
+}
+.shadowDiv{
+  display:flex;
+  flex-direction: column;
+ 
+
+}
+.shadowDiv div{
+  display: flex;
+}
+
+.title{
+  color:#FFFFFF;
+  padding-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+    background-color: #373737;
+    padding-left: 50px;
+    font-size: 15px;
+
+}
+.copyright{
+  color:white;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  
+}
+.eachIcon{
+  margin-right:10px;
+}
